@@ -1,6 +1,6 @@
 import cv2
 
-image = cv2.imread("./logo.png")
+image = cv2.imread("../imgs/logo.png")
 # cv2.namedWindow("Input", cv2.WINDOW_AUTOSIZE)
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 cv2.imwrite("gray.png", gray)
