@@ -18,7 +18,9 @@ for row in range(h):
         r = 255 - r
         output[row, column] = [b, g, r]
 
-cv2.imshow("Formatted", output)
+cv2.imshow("formatted", output)
 cv2.waitKey(0)
 
-cv2.imwrite("formatted.png", output)
+cv2.imwrite("./formatted.png", output)
+
+
